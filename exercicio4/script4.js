@@ -5,12 +5,14 @@ function media() {
 
     let media = (nota1 + nota2 + nota3) / 3;
 
-    let resultado = document.querySelector('#resultado');
-
-    if (media >= 6) {
+     if (media >= 6) {
         resultado.innerHTML = "O aluno foi aprovado! Média: " + media;
     } else {
         let dif = 6 - media;
         resultado.innerHTML = "Aluno reprovado! Média: " + media + ". Faltaram " + dif + " ponto(s) para passar. Vai fazer o Se Liga!";
     }
+
+    let mostraResultado = document.querySelector('#resultado');
+
+ console.log(mostraResultado)
 }
