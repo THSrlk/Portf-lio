@@ -9,7 +9,7 @@ function identificar(){
     num2 = Number(window.prompt('Digite outro número: '));
 
     //a variavel de dados recebe o resultado da soma das variaveis num1 e num2
-    let identificação = num1 + num2;
+    let identificação = num1 = num2;
 
 
     //mostra o resultado pro usuario
